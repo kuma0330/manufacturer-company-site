@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>製品詳細</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+<body>
+	<header>
+		<div id="header">
+		  <h1>セラコン株式会社</h1>
+		  <div id="navi">
+			  <button class="menu-toggler">
+				<span></span>
+			  </button>
+			<nav id="menu">
+			  <ul>
+				<li><a href="index.html"><span>HOME</span></a></li>
+				<li><a href="products.html"><span>製品情報</span></a></li>
+				<li><a href="company.html"><span>会社情報</span></a></li>
+				<li><a href="ir.html"><span>IR情報</span></a></li>
+				<li><a href="recruit.html"><span>採用情報</span></a></li>
+				<li><a href="contact.html"><span>お問い合わせ</span></a></li>
+			  </ul>
+			</nav>
+		  </div>
+		</div>
+	  </header>
+	<main id="capacitor">
+		<h1>製品紹介</h1>
+		<div class="flex-items">
+			<section class="capacitor">
+				<h2 class="capacitor__title"><span data-capacitor="name"></span></h2>
+				<div class="capacitor__info">
+					<dl class="capacitor__item">
+						<dt>製品サイズ</dt>
+						<dd data-capacitor="size"></dd>
+						<dt>使用温度</dt>
+						<dd data-capacitor="temperature"></dd>
+						<dt>使用電圧</dt>
+						<dd data-capacitor="voltage"></dd>
+						<dt>静電容量</dt>
+						<dd data-capacitor="capacity"></dd>
+					</dl>
+				</div>
+			</section>
+			<section class="search-box">
+				<div class="search-box__content">
+					<a href="products.html">
+						<p>製品情報</p>
+					</a>
+				</div>
+				<div class="search-box__content">
+					<a href="./capacitor.html?id=1">
+						<p>アルミ電解コンデンサ</p>
+					</a>
+				</div>
+				<div class="search-box__content">
+					<a href="./capacitor.html?id=2">
+						<p>導電性アルミ電解コンデンサ</p>
+					</a>
+				</div>
+				<div class="search-box__content">
+					<a href="./capacitor.html?id=3">
+						<p>積層セラミックコンデンサ</p>
+					</a>
+				</div>
+			</section>
+		</div>
+		<section class="contact-box">
+			<h4 class="">お問い合わせ</h4>
+			<div class="contact-box__text">
+				<p>ご不明な点がありましたら、お気軽にお問い合わせください。</p>
+				<a href="contact.html" class="">お問い合わせ</a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2020 CERACON.Corp all right reserved</p>
+    </footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="js/master.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>お問い合わせ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div id="header">
+      <h1>セラコン株式会社</h1>
+      <div id="navi">
+          <button class="menu-toggler">
+            <span></span>
+          </button>
+        <nav id="menu">
+          <ul>
+            <li><a href="index.html"><span>HOME</span></a></li>
+            <li><a href="products.html"><span>製品情報</span></a></li>
+            <li><a href="company.html"><span>会社情報</span></a></li>
+            <li><a href="ir.html"><span>IR情報</span></a></li>
+            <li><a href="recruit.html"><span>採用情報</span></a></li>
+            <li><a href="contact.html"><span>お問い合わせ</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main id="contact">
+    <h1>お問い合わせ</h1>
+    <div class="contact__inner">
+      <p>ご意見、ご感想などがありましたら、以下の欄にご記入の上、送信してください。記事に関するご質問などもお気軽にお寄せください。</p>
+      <div class="contact-input">
+        <div class="contact-input__table">
+          <dl>
+            <dt>
+              <div>お名前<span class="required">必須</span></div>
+            </dt>
+            <dd>
+              <input type="text" name="name"placeholder="例）世良 権造">
+              <p id="jquery-validation-tip-name" class="jquery-validation-error-tip"></p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <div>メールアドレス<span class="required">必須</span></div>
+            </dt>
+            <dd>
+              <input type="text" name="email" placeholder="例）ceracon@ceracon.co.jp">
+              <p id="jquery-validation-tip-email" class="jquery-validation-error-tip"></p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <div>電話番号<span class="required">必須</span></div>
+            </dt>
+            <dd>
+              <input type="text" name="tel" placeholder="例）000-0000-0000">
+              <p id="jquery-validation-tip-tel" class="jquery-validation-error-tip"></p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <div>会社名</div>
+            </dt>
+            <dd>
+              <input type="text" name="company" size="60" value="" placeholder="例）CERA-CON株式会社">
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <div>役職</div>
+            </dt>
+            <dd>
+              <input type="text" name="position" size="60" value="" placeholder="例）開発部長">
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <div>部署名</div>
+            </dt>
+            <dd>
+              <input type="text" name="department-name" size="60" value="" placeholder="例）開発部">
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <div>お問い合わせ内容<span class="required">必須</span></div>
+            </dt>
+            <dd><textarea name="detail" cols="50" rows="5" placeholder="お問い合わせ内容をご記入ください"></textarea>
+              <p id="jquery-validation-tip-detail" class="jquery-validation-error-tip"></p>
+            </dd>
+          </dl>
+        </div>
+        <div>
+          <input type="submit" value="送信">
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- フッター -->
+  <footer>
+    <p>&copy; 2020 CERACON.Corp all right reserved</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
