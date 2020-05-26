@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 /* --------------------------------
  * base
  * -------------------------------- */
@@ -293,52 +291,6 @@ h3{
   margin: 0 20px;
 }
 
-/* #search{
-  text-align: center;
-  background-color: #f8f8f8;
-  padding-bottom: 50px;
-}
-
-#products-select p{
-  text-align: center;
-}
-
-#products-select option:first-child{
-  display: none;
-}
-
-.product__search{
-  margin-bottom: 20px;
-}
-
-.product__search__category h4,
-.product__number__search h4{
-  margin-right: 0;
-  font-weight: 600;
-}
-
-#search select,
-#search input{
-  width: 300px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 5px;
-}
-
-#search input{
-  width: 250px;
-  text-align: center;
-}
-
-#search input::placeholder{
-  text-align: center;
-}
-
-.product__number__input img{
-  height: 30px;
-  width: 30px;
-} */
-
 #home #products-application{
   margin: 0 20px;
 }
@@ -423,6 +375,7 @@ h3{
   color: #fff;
   font-weight: 600;
   font-size: 24px;
+  width: 100%;
   z-index: 100;
   top: 50%;
   left: 50%;
@@ -541,10 +494,6 @@ footer p{
   color: #111;
 }
 
-.products-lineup__content:nth-child(2) p{
-  padding-top: 15px;
-}
-
 .products-lineup__content a::before,
 .products-application__content a::before{
   content: "";
@@ -600,14 +549,6 @@ footer p{
 
 .application-heading{
   text-align: center;
-}
-
-.application__left{
-  padding-left: 10px;
-}
-
-.application__right{
-  padding-right: 10px;
 }
 
 /* --------------------------------
@@ -1270,7 +1211,6 @@ footer p{
 /* --------------------------------
  * capacitorページ
  * -------------------------------- */
-
  #capacitor{
 	margin: 0 20px;
 }
@@ -1485,6 +1425,7 @@ footer p{
   .application-heading p{
     font-size: 20px;
   }
+
   .app-car,
   .app-transmission,
   .app-smartphone{
@@ -1527,6 +1468,7 @@ footer p{
     padding: 35px 30px 0 20px;
     font-size: 20px;
   }
+
   .products-lineup__content p{
     font-size: 17px;
   }
@@ -1562,6 +1504,13 @@ footer p{
   .application__right{
     padding: 0;
     width: 50%;
+  }
+  .application__left{
+    padding-left: 10px;
+  }
+
+  .application__right{
+    padding-right: 10px;
   }
 
   /* --------------------------------
