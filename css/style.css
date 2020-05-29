@@ -1257,7 +1257,8 @@ footer p{
 }
 
 #capacitor .search-box{
-	margin-bottom: 50px;
+  margin-bottom: 50px;
+  max-width: 100% !important;
 }
  
 #capacitor .search-box__content{
@@ -1278,6 +1279,7 @@ footer p{
 	font-weight: 600;
   font-size: 16px;
   text-decoration: none;
+  z-index: 100;
 }
   
 #capacitor .search-box__content:first-child{
