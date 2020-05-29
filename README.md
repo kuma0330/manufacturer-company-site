@@ -13,9 +13,6 @@
 ex) <a href="./capacitor.html?id=1">
 これにより、製品情報の追加・変更の場合も作業を簡略化することが可能となります。
 
-★ソースコード
-https://github.com/kuma9732/manufacturer-company-site
-
 ★使われているもの
 HTML5/CSS3、jQuery
 
