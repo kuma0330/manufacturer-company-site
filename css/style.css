@@ -183,7 +183,10 @@ h3{
   color: #ddd;
   height: 100%;
   width: 100%;
-  line-height: 4;
+  line-height: 80px;
+  display: block;
+  font-size: 18px;
+  padding: 0;
 }
 
 /* --------------------------------
@@ -1932,7 +1935,7 @@ footer p{
     left: auto;
     right: 0;
     line-height: 80px;
-    width: 79%;
+    width: 75%;
     height: 80px;
     opacity: 0.9;
     font-size: 16px;
@@ -1972,11 +1975,8 @@ footer p{
     color: #fff;
     height: 100%;
     width: 100%;
-    font-size: 24px;
     display: inline-block;
-  }
-  #menu ul li a span{
-    font-size: 22px;
+    font-size: 20px;
   }
 
   /* --------------------------------
